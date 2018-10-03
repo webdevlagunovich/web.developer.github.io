@@ -242,18 +242,33 @@ font-weight: 400;
             margin-bottom: 15px;
         }
         .portfolio-col-1 {
-            padding-top: 25px;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-top: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
             padding-bottom: 5px;
             border-top: 2px solid #dddddd;
             border-bottom: 2px solid #dddddd;
+        }
+        .portfolio-col-1 h3{
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .portfolio-col-1 p{
+            font-size: 12px;
         }
         .portfolio-col-2 {
             padding-top: 25px;
             padding-left: 20px;
             padding-right: 20px;
             padding-bottom: 5px;
+        }
+        .portfolio-col-2 h3{
+            font-size: 14px;
+            margin-bottom: 20px;
+       }
+        .portfolio-col-2 p{
+            font-size: 12px;
+        }
         }
         .footrer-autor{
             margin-top: 0;
@@ -264,4 +279,3 @@ font-weight: 400;
             margin-bottom: 20px;
             text-align: center;
         }
-       
