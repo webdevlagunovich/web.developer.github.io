@@ -40,6 +40,12 @@ font-size: 18px;
 font-weight: 700;
 padding: 17px 55px;
 margin-top: 33px;
+transition: 0.5s;
+ }
+ .header-button:hover {
+    box-shadow: none;
+    background-color: #072b6f;
+    color: #ffffff;
  }
 
  header small{
@@ -158,7 +164,13 @@ font-weight: 400;
     font-size: 18px;
     border-radius: 50px;
     padding: 12px 40px;
+    transition: 0.2s;
 }
+.footer-button:hover{
+    background-color: #dddddd;
+    color: #1145a6;
+    box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+    }
 
 @media (max-width: 1200px)  {
     .header-pretitle{
@@ -194,6 +206,9 @@ font-weight: 400;
     }
 
     @media (max-width: 768px) {
+        .footer{
+            padding-bottom: 60px;
+        }
 
         .header-pretitle{
             text-align: center;
@@ -233,5 +248,4 @@ font-weight: 400;
             margin-bottom: 20px;
             text-align: center;
         }
-
-    }
+       
